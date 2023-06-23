@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+
+}
+
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pintura-liquida-veteada-textura-abstracta-pintura-fluida-papel-tapiz-mezcla-colores-intensivos_1258-68285.jpg?w=2000);
+    background-size: cover;
+    background-attachment: fixed;
+
+}

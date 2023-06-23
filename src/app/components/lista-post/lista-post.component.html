@@ -1,0 +1,25 @@
+<div class="container">
+    <select (change)="filtroCategoria($event)" class="form-select" aria-label="Default select example">
+        <option value="todos" selected>Selecciona Categoria</option>
+        <option value="Responsabilidad">Responsabilidad</option>
+        <option value="Autoestima">Autoestima</option>>
+        <option value="El colmo de un programador">El colmo de un programador</option>
+
+    </select>
+
+    <div class="row">
+        <div class="card col-4" style="width: 18rem;" *ngFor="let post of AllPosts">
+            <img [src]="post.imagen" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2>{{post.titulo}}</h2>
+                <p class="card-text">{{post.texto}} </p>
+                <figure class="text-center">
+                    <figcaption class="blockquote-footer">
+                        {{post.autor}} <cite title="Source Title">{{post.fecha}}</cite>
+                    </figcaption>
+                </figure>
+
+
+            </div>
+        </div>
+    </div>
