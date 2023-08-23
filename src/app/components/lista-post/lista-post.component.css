@@ -6,22 +6,46 @@ h2 {
     font-weight: bolder;
 }
 
-img {
-    display: block;
+.foto figure {
+    position: relative;
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.foto figure img {
     width: 100%;
-    height: 400px;
-    margin-top: 10px;
+    height: 100%;
+    transition: all 500ms ease-out;
 }
 
-.row {
-    margin-left: 25px;
+.foto figure .capa {
+    position: absolute;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 235, 215, 0.614);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
 }
 
-.card {
-    margin: 10px;
-    background-color: rgba(28, 128, 190, 0.699);
-    border: 5px solid rgba(28, 128, 190);
+.foto figure h2 {
+    margin-top: 5px;
 }
+
+.foto figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.foto figure:hover>img {
+    transform: scale(1.2);
+}
+
 
 .blockquote-footer {
     color: black;

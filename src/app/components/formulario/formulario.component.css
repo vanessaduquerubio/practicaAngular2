@@ -7,14 +7,14 @@ h2 {
 form {
 
     padding: 20px;
-    background-color: rgba(255, 140, 0, 0.726);
-    border: 5px solid rgba(28, 128, 190, 0.699);
+    background-color: whitesmoke;
+    border: 5px solid #cdc5c0;
     border-radius: 20px;
 
 }
 
 .btn {
-    background-color: rgba(28, 128, 190, 0.699);
+    background-color: #e0dbd9;
     color: white;
     padding: 5px 100px;
 }

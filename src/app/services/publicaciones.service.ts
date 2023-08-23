@@ -10,88 +10,88 @@ export class PublicacionesService {
   constructor() {
     this.arrPosts = [
       {
-        titulo: "No",
-        texto: "Por  ",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: 'vanessa',
         fecha: 'enero 2022',
-        imagen: "https://i.pinimg.com/564x/fd/a7/4b/fda74b1d6679cc4421015a7d0ff0a8ea.jpg",
+        imagen: "https://i.pinimg.com/564x/ce/93/2c/ce932c7298a6b15c43534d3b05534e21.jpg",
         categoria: "Responsabilidad"
       }, {
-        titulo: "Culpes",
-        texto: "Tus ",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: "Juan Pérez",
         fecha: 'marzo 2022',
-        imagen: "https://i.pinimg.com/564x/db/e6/6d/dbe66dd6b07ac27e739d7740a42948dd.jpg",
+        imagen: "https://i.pinimg.com/564x/c6/c6/f6/c6c6f6298eef2bc30c35e10b1752091b.jpg",
         categoria: "Responsabilidad"
       }, {
-        titulo: "Al",
-        texto: "Interminables",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: "Laura Gómez",
         fecha: 'febrero 2022',
-        imagen: "https://i.pinimg.com/564x/1a/60/4c/1a604cbe03f2f5a354fc2c9cb2f5f2ee.jpg",
+        imagen: "https://i.pinimg.com/564x/9b/94/eb/9b94eba8d231500c67cc0999ba9d90c6.jpg",
         categoria: "Responsabilidad"
       }, {
-        titulo: "Karma",
-        texto: "  bucles infinitos.",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: " Ana Rodríguez",
         fecha: ' abril 2022',
-        imagen: "https://i.pinimg.com/236x/a7/b1/5f/a7b15f5f1dac973beae79b851cf354e5.jpg",
+        imagen: "https://i.pinimg.com/564x/77/2f/d4/772fd49ad35889413a7f22ff0444d01a.jpg",
         categoria: "Responsabilidad"
       }, {
-        titulo: "De",
-        texto: "No hay",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: "Javier López",
         fecha: 'diciembre 2022',
-        imagen: "https://i.pinimg.com/564x/c0/01/3f/c0013f9c6ad74fba50d2d21ee24a1757.jpg",
+        imagen: "https://i.pinimg.com/564x/b0/17/3a/b0173a81a7fdf4c9de3048488bb00198.jpg",
         categoria: "Autoestima"
       }, {
-        titulo: "Lo",
-        texto: " No",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: " Ana García",
         fecha: ' enero 2023',
-        imagen: "https://i.pinimg.com/564x/3c/b8/d6/3cb8d6e5fba2920e586edc1a31e3a27a.jpg",
+        imagen: "https://i.pinimg.com/564x/be/98/46/be984600eb7ccb50add3d5d2d7c5b747.jpg",
         categoria: "Autoestima"
       }, {
-        titulo: "Que",
-        texto: "Se  ",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: "Juan García",
         fecha: 'febrero 2023',
-        imagen: "https://i.pinimg.com/564x/a0/5f/c2/a05fc26b74a77a833a6ae80822fd5c41.jpg",
+        imagen: "https://huegahhome.com/cdn/shop/products/image_32417937-1ca2-4482-b148-f678bd334881-667469_540x.jpg?v=1683900270",
         categoria: "Autoestima"
       }, {
-        titulo: ",",
-        texto: "saca ",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: "Juan García",
         fecha: 'febrero 2023',
-        imagen: "https://us.123rf.com/450wm/kapongza/kapongza1212/kapongza121200023/16953361-flor.jpg?ver=6",
+        imagen: "https://i.pinimg.com/564x/bb/57/f3/bb57f3122c15391db15ae709a0fadf35.jpg",
         categoria: "Autoestima"
       }, {
-        titulo: "Te",
-        texto: " Que te falle ",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: " María López",
         fecha: ' 2022',
-        imagen: "https://images.unsplash.com/photo-1559656389-e2cde75ddec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXp1bCUyMHklMjBuYXJhbmphfGVufDB8fDB8fHww&w=1000&q=80",
+        imagen: "https://i.pinimg.com/564x/dd/e0/e7/dde0e768b78ab4a7d958bd31070cace5.jpg",
         categoria: "El colmo de un programador"
       }, {
-        titulo: "Pasa",
-        texto: "El código ",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: " María López",
         fecha: ' 2022',
-        imagen: "https://st3.depositphotos.com/14568452/35252/i/600/depositphotos_352525316-stock-photo-fluid-art-texture-background-with.jpg",
+        imagen: "https://i.pinimg.com/564x/a8/a4/cb/a8a4cb0fa491917d22c0c9c852b4cac2.jpg",
         categoria: "El colmo de un programador"
       }, {
-        titulo: "Por",
-        texto: " Entero",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: " María López",
         fecha: ' 2022',
-        imagen: "https://us.123rf.com/450wm/naskami/naskami2004/naskami200400169/145070850-rebanadas-jugosas-frescas-de-naranja-y-cubitos-de-hielo-sobre-el-fondo-azul-brillante-cubierto-de.jpg?ver=6",
+        imagen: "https://i.pinimg.com/564x/3a/31/33/3a3133be5a19a2a5e14287e6c2f4d279.jpg",
         categoria: "El colmo de un programador"
       }, {
-        titulo: "Gilipollas",
-        texto: " Por un punto ",
+        titulo: "Título",
+        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus ullam veniam ipsam sequi perferendis enim officiis unde soluta provident ex numquam officia animi dolore maxime eius voluptas, praesentium est dolor in aspernatur? Itaque maiores quidem veritatis quis nisi optio, ipsa doloremque officiis voluptatem ea sit quasi a esse odit",
         autor: " María López",
         fecha: ' 2022',
-        imagen: "https://cdn.pixabay.com/photo/2020/01/03/23/20/sunset-4739375_1280.jpg",
+        imagen: "https://i.pinimg.com/564x/67/e3/ea/67e3ea53a742d2a4a38a3e1acd083070.jpg",
         categoria: "El colmo de un programador"
       }
     ]
