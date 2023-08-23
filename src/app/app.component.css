@@ -1,15 +1,16 @@
 nav {
-    background-color: rgb(255, 111, 0);
+    background-color: #e0dbd9;
 }
 
 .menu {
     display: flex;
-    font-size: 1.5em;
     padding: 0 20px;
+    display: flex;
+    justify-content: right;
 }
 
 li:hover {
-    background-color: rgba(28, 128, 190, 0.699);
+    background-color: #e0dbd9;
     border-radius: 10px;
     transition: 1s;
 }

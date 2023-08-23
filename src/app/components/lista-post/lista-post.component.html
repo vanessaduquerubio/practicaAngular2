@@ -8,18 +8,14 @@
     </select>
 
     <div class="row">
-        <div class="card col-4" style="width: 18rem;" *ngFor="let post of AllPosts">
-            <img [src]="post.imagen" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h2>{{post.titulo}}</h2>
-                <p class="card-text">{{post.texto}} </p>
-                <figure class="text-center">
-                    <figcaption class="blockquote-footer">
-                        {{post.autor}} <cite title="Source Title">{{post.fecha}}</cite>
-                    </figcaption>
-                </figure>
-
-
-            </div>
+        <div class="foto col-sm-6 col-lg-3 m-auto" *ngFor="let post of AllPosts">
+            <figure>
+                <img [src]="post.imagen" class=" rounded mb-2" alt="..." width="320px" height="320px">
+                <div class="capa">
+                    <h2>{{post.titulo}}</h2>
+                    <p class="card-text">{{post.texto}} </p>
+                    <p> {{post.autor}} <cite title="Source Title">{{post.fecha}}</cite></p>
+                </div>
+            </figure>
         </div>
     </div>

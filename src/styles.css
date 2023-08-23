@@ -5,12 +5,15 @@
 * {
     font-family: 'Indie Flower', cursive;
     font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
 
 }
 
 body {
-    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pintura-liquida-veteada-textura-abstracta-pintura-fluida-papel-tapiz-mezcla-colores-intensivos_1258-68285.jpg?w=2000);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: whitesmoke;
 
 }
